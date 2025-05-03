@@ -19,5 +19,10 @@ pipeline {
        echo 'This is deploy stage'
    }
 }
+post {                    # we can execute some logic after all stages executed condition like always, success, failure
+   always {
+   }
+  success {
+  }
   }
 }
